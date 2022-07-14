@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --ancor-background: rgb(231, 46, 14);
+}
+
+/* header section code here */
+.cover-img {
+    height: 80vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.829), transparent), url(img/cover-pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-navbar {
+    height: 50px;
+    background: rgba(255, 0, 0, 0.363);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-navbar img {
+    width: 90px;
+    border-radius: 30%;
+}
+
+.main-navbar ul {
+    display: flex;
+    margin: 0px;
+}
+
+.main-navbar li {
+    margin: 20px;
+    list-style: none;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.cover-text {
+    margin-top: 150px;
+    margin-left: 90px;
+    color: white;
+    word-spacing: 5px;
+}
+
+.cover-text h1 {
+    font-size: 40px;
+}
+
+.cover-text p {
+    margin-top: 10px;
+}
+
+.cover-text a {
+    text-decoration: none;
+    color: white;
+    background: rgb(231, 46, 14);
+    line-height: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* header section code here */
+/* first para code here */
+.first-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.first-para img {
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.first-text {
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+.first-text h1 {
+    font-size: 40px;
+}
+
+.first-text p {
+    margin-top: 10px;
+}
+
+.first-text a {
+    text-decoration: none;
+    color: white;
+    background: rgb(231, 46, 14);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text {
+    margin-left: 100px;
+}
+
+/* first para code end */
+.donation {
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.parent-donate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.donation-text {
+    text-align: center;
+}
+
+.donation-text h1 {
+    font-size: 30px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: rgba(255, 192, 203, 0.384)
+}
+
+.box {
+    display: flex;
+    border-radius: 5px;
+}
+
+.donate-img {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.dona-text {
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+/* praying hand */
+.praying {
+    width: 50%;
+    height: 50vh;
+}
+
+.hand-img {
+    display: flex;
+}
+
+.hand-img img {
+    width: 250px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+/* charity money here */
+.charity-mony {
+    width: 100%;
+    height: 100vh;
+}
+
+.charity-text {
+    text-align: center;
+}
+
+.charity-text h1 {
+    font-size: 40px;
+}
+
+.charity-blog {
+    width: 80%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.charity-proparty img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.charity-proparty {
+    width: 100%;
+    height: 50vh;
+    box-shadow: 2px 5px 4px lightgray;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.charity-proparty h1,
+p,
+a {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* footer code here */
+footer {
+    width: 100%;
+    height: 200px;
+    background: black;
+    margin-top: 100px;
+}
+
+.f-text {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.f-text h1 {
+    color: rgb(179, 40, 15);
+}
